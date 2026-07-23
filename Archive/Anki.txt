@@ -1,0 +1,12 @@
+Question 
+Answer
+Excel Sheet
+
+
+="<pre>" & A1 & "</pre>"
+="<pre>" & B1 & "</pre>"
+
+
+
+Google Sheet
+Script 

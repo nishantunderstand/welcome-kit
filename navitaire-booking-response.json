@@ -1,0 +1,2253 @@
+{
+  "data": {
+    "selfServiceMoveAvailable": false,
+    "bookingKey": "NDQ5NjE5NzAwIU1QTlY0RiFmYWxzZQ--",
+    "recordLocator": "MPNV4F",
+    "currencyCode": "INR",
+    "systemCode": null,
+    "groupName": null,
+    "locators": {
+      "numericRecordLocator": "253127082611",
+      "parentRecordLocator": null,
+      "parentId": 0,
+      "recordLocators": []
+    },
+    "info": {
+      "status": 2,
+      "paidStatus": 0,
+      "priceStatus": 2,
+      "profileStatus": 1,
+      "bookingType": null,
+      "channelType": 1,
+      "bookedDate": "2026-05-27T02:59:25.15Z",
+      "createdDate": "2026-05-27T02:59:25.15Z",
+      "expirationDate": "2026-07-22T03:30:00Z",
+      "modifiedDate": "2026-05-27T06:38:07.883Z",
+      "modifiedAgentId": 18436629,
+      "createdAgentId": 18464404,
+      "owningCarrierCode": "6E",
+      "changeAllowed": true,
+      "createdUserKey": "MTg0NjQ0MDQ-",
+      "modifiedUserKey": "MTg0MzY2Mjk-"
+    },
+    "sales": {
+      "created": {
+        "agentCode": "RESJS11",
+        "domainCode": "DEF",
+        "locationCode": "RES",
+        "organizationCode": "6E"
+      },
+      "source": {
+        "isoCountryCode": null,
+        "sourceSystemCode": null,
+        "agentCode": "RESJS11",
+        "domainCode": "DEF",
+        "locationCode": "RES",
+        "organizationCode": "6E"
+      },
+      "modified": null
+    },
+    "typeOfSale": {
+      "residentCountry": "IN",
+      "promotionCode": null,
+      "fareTypes": []
+    },
+    "hold": null,
+    "breakdown": {
+      "balanceDue": 0,
+      "pointsBalanceDue": 0,
+      "authorizedBalanceDue": 17994,
+      "totalAmount": 43950,
+      "totalPoints": 0,
+      "totalToCollect": 43950,
+      "totalPointsToCollect": 0,
+      "totalCharged": 43950,
+      "passengerTotals": {
+        "services": null,
+        "specialServices": null,
+        "seats": {
+          "total": null,
+          "taxes": null,
+          "adjustments": 969,
+          "charges": [
+            {
+              "amount": 0,
+              "code": "SNXT",
+              "detail": "DEL-BOM",
+              "type": 6,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 0,
+              "ticketCode": "NXT"
+            },
+            {
+              "amount": 0,
+              "code": "SNXT",
+              "detail": "BOM-DEL",
+              "type": 6,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 0,
+              "ticketCode": "NXT"
+            },
+            {
+              "amount": 435,
+              "code": "SNXT",
+              "detail": "DEL-BOM",
+              "type": 6,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 435,
+              "ticketCode": "NXT"
+            },
+            {
+              "amount": 435,
+              "code": "SNXT",
+              "detail": "Fee OR",
+              "type": 1,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 435,
+              "ticketCode": null
+            },
+            {
+              "amount": 534,
+              "code": "SNXT",
+              "detail": "BOM-DEL",
+              "type": 6,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 534,
+              "ticketCode": "NXT"
+            },
+            {
+              "amount": 534,
+              "code": "SNXT",
+              "detail": "Fee OR",
+              "type": 1,
+              "collectType": 0,
+              "currencyCode": "INR",
+              "foreignCurrencyCode": "INR",
+              "foreignAmount": 534,
+              "ticketCode": null
+            }
+          ]
+        },
+        "upgrades": null,
+        "spoilage": null,
+        "nameChanges": null,
+        "convenience": null,
+        "infant": null,
+        "totalCost": 43950
+      },
+      "passengers": {
+        "MCFBRFQ-": {
+          "passengerKey": "MCFBRFQ-",
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 0,
+                "code": "SNXT",
+                "detail": "DEL-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "NXT"
+              },
+              {
+                "amount": 0,
+                "code": "SNXT",
+                "detail": "BOM-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "NXT"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null,
+          "totalCost": 14650
+        },
+        "MSFBRFQ-": {
+          "passengerKey": "MSFBRFQ-",
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null,
+          "totalCost": 14650
+        },
+        "MiFDSEQ-": {
+          "passengerKey": "MiFDSEQ-",
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 969,
+            "charges": [
+              {
+                "amount": 435,
+                "code": "SNXT",
+                "detail": "DEL-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 435,
+                "ticketCode": "NXT"
+              },
+              {
+                "amount": 435,
+                "code": "SNXT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 435,
+                "ticketCode": null
+              },
+              {
+                "amount": 534,
+                "code": "SNXT",
+                "detail": "BOM-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 534,
+                "ticketCode": "NXT"
+              },
+              {
+                "amount": 534,
+                "code": "SNXT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 534,
+                "ticketCode": null
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null,
+          "totalCost": 14650
+        }
+      },
+      "journeyTotals": {
+        "totalAmount": 15600,
+        "totalPoints": 0,
+        "totalTax": 10356,
+        "totalDiscount": 0
+      },
+      "journeys": {
+        "NkV_IDM1M34gfn5ERUx_MDcvMDIvMjAyNiAwMzowMH5CT01_MDcvMDIvMjAyNiAwNToyMH5_": {
+          "journeyKey": "NkV_IDM1M34gfn5ERUx_MDcvMDIvMjAyNiAwMzowMH5CT01_MDcvMDIvMjAyNiAwNToyMH5_",
+          "totalAmount": 2600,
+          "totalPoints": 0,
+          "totalTax": 1710,
+          "totalDiscount": 0
+        },
+        "NkV_NjA0NX4gfn5CT01_MDcvMDUvMjAyNiAwMzowMH5ERUx_MDcvMDUvMjAyNiAwNToxMH5_": {
+          "journeyKey": "NkV_NjA0NX4gfn5CT01_MDcvMDUvMjAyNiAwMzowMH5ERUx_MDcvMDUvMjAyNiAwNToxMH5_",
+          "totalAmount": 2600,
+          "totalPoints": 0,
+          "totalTax": 1742,
+          "totalDiscount": 0
+        }
+      },
+      "addOnTotals": {
+        "car": null,
+        "hotel": null,
+        "activities": null
+      }
+    },
+    "receivedBy": {
+      "receivedBy": null,
+      "latestReceivedBy": null,
+      "receivedReference": null,
+      "latestReceivedReference": null,
+      "referralCode": null
+    },
+    "contacts": {
+      "D": {
+        "contactTypeCode": "D",
+        "phoneNumbers": [
+          {
+            "type": 0,
+            "number": "7275819078"
+          },
+          {
+            "type": 1,
+            "number": "123456789"
+          }
+        ],
+        "cultureCode": null,
+        "address": null,
+        "emailAddress": "test@indigo.in",
+        "customerNumber": null,
+        "sourceOrganization": null,
+        "distributionOption": 2,
+        "notificationPreference": 1,
+        "companyName": null,
+        "name": {
+          "first": "danish",
+          "middle": null,
+          "last": "test",
+          "title": "MR",
+          "suffix": null
+        }
+      }
+    },
+    "passengers": {
+      "MCFBRFQ-": {
+        "passengerKey": "MCFBRFQ-",
+        "passengerAlternateKey": "NjU1OTMyODg4",
+        "customerNumber": null,
+        "fees": [
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "SNXT",
+            "detail": null,
+            "passengerFeeKey": "MCExITk-",
+            "override": true,
+            "flightReference": "20260702 6E 353 DELBOM",
+            "note": null,
+            "createdDate": "2026-05-27T03:14:14.74Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 0,
+                "code": "SNXT",
+                "detail": "DEL-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "NXT"
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "17Jul 6E6045 BOMDEL",
+            "passengerFeeKey": "MCEyITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T05:48:04.453Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "21Jul 6E 355 BOMDEL",
+            "passengerFeeKey": "MCE0ITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T06:27:40.44Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "SNXT",
+            "detail": null,
+            "passengerFeeKey": "MCE1ITk-",
+            "override": true,
+            "flightReference": "20260705 6E6045 BOMDEL",
+            "note": null,
+            "createdDate": "2026-05-27T06:38:07.883Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 0,
+                "code": "SNXT",
+                "detail": "BOM-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "NXT"
+              }
+            ]
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "PSFR",
+            "detail": null,
+            "passengerFeeKey": "MCE6ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "UDFR",
+            "detail": null,
+            "passengerFeeKey": "MCE7ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          }
+        ],
+        "name": {
+          "first": "danish",
+          "middle": null,
+          "last": "test",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "bags": [],
+        "program": null,
+        "infant": null,
+        "info": {
+          "nationality": null,
+          "residentCountry": null,
+          "gender": 1,
+          "dateOfBirth": "2001-06-12T00:00:00",
+          "familyNumber": 1
+        },
+        "travelDocuments": [],
+        "addresses": [],
+        "weightCategory": 1,
+        "emdCoupons": []
+      },
+      "MSFBRFQ-": {
+        "passengerKey": "MSFBRFQ-",
+        "passengerAlternateKey": "NjU1OTMyODg5",
+        "customerNumber": null,
+        "fees": [
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "17Jul 6E6045 BOMDEL",
+            "passengerFeeKey": "MSEwITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T05:48:04.453Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "21Jul 6E 355 BOMDEL",
+            "passengerFeeKey": "MSExITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T06:27:40.44Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "PSFR",
+            "detail": null,
+            "passengerFeeKey": "MSE6ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "UDFR",
+            "detail": null,
+            "passengerFeeKey": "MSE7ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          }
+        ],
+        "name": {
+          "first": "saif",
+          "middle": null,
+          "last": "test",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "ADT",
+        "discountCode": null,
+        "bags": [],
+        "program": null,
+        "infant": null,
+        "info": {
+          "nationality": null,
+          "residentCountry": null,
+          "gender": 1,
+          "dateOfBirth": "2001-02-13T00:00:00",
+          "familyNumber": 2
+        },
+        "travelDocuments": [],
+        "addresses": [],
+        "weightCategory": 1,
+        "emdCoupons": []
+      },
+      "MiFDSEQ-": {
+        "passengerKey": "MiFDSEQ-",
+        "passengerAlternateKey": "NjU1OTMyODkw",
+        "customerNumber": null,
+        "fees": [
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "SNXT",
+            "detail": null,
+            "passengerFeeKey": "MiExITk-",
+            "override": true,
+            "flightReference": "20260702 6E 353 DELBOM",
+            "note": null,
+            "createdDate": "2026-05-27T03:14:14.74Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 435,
+                "code": "SNXT",
+                "detail": "DEL-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 435,
+                "ticketCode": "NXT"
+              },
+              {
+                "amount": 435,
+                "code": "SNXT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 435,
+                "ticketCode": null
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "17Jul 6E6045 BOMDEL",
+            "passengerFeeKey": "MiEyITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T05:48:04.453Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "CHG1",
+            "detail": "21Jul 6E 355 BOMDEL",
+            "passengerFeeKey": "MiE0ITU-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-05-27T06:27:40.44Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 2999,
+                "code": "CHG1",
+                "detail": "Change Fee",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2999,
+                "ticketCode": "CHG"
+              },
+              {
+                "amount": 143,
+                "code": "27GST",
+                "detail": "BOM-DEL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 143,
+                "ticketCode": "GST"
+              }
+            ]
+          },
+          {
+            "type": 9,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "SNXT",
+            "detail": null,
+            "passengerFeeKey": "MiE1ITk-",
+            "override": true,
+            "flightReference": "20260705 6E6045 BOMDEL",
+            "note": null,
+            "createdDate": "2026-05-27T06:38:07.883Z",
+            "isProtected": false,
+            "serviceCharges": [
+              {
+                "amount": 534,
+                "code": "SNXT",
+                "detail": "BOM-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 534,
+                "ticketCode": "NXT"
+              },
+              {
+                "amount": 534,
+                "code": "SNXT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 534,
+                "ticketCode": null
+              }
+            ]
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "PSFR",
+            "detail": null,
+            "passengerFeeKey": "MiE6ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          },
+          {
+            "type": 8,
+            "ssrCode": null,
+            "ssrNumber": 0,
+            "paymentNumber": 0,
+            "isConfirmed": true,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "code": "UDFR",
+            "detail": null,
+            "passengerFeeKey": "MiE7ITg-",
+            "override": false,
+            "flightReference": null,
+            "note": null,
+            "createdDate": "2026-07-14T00:00:00Z",
+            "isProtected": false,
+            "serviceCharges": []
+          }
+        ],
+        "name": {
+          "first": "ali",
+          "middle": null,
+          "last": "test",
+          "title": "MR",
+          "suffix": null
+        },
+        "passengerTypeCode": "CHD",
+        "discountCode": null,
+        "bags": [],
+        "program": null,
+        "infant": null,
+        "info": {
+          "nationality": null,
+          "residentCountry": null,
+          "gender": 1,
+          "dateOfBirth": "2018-06-13T00:00:00",
+          "familyNumber": 3
+        },
+        "travelDocuments": [],
+        "addresses": [],
+        "weightCategory": 3,
+        "emdCoupons": []
+      }
+    },
+    "journeys": [
+      {
+        "flightType": 1,
+        "stops": 0,
+        "designator": {
+          "destination": "BOM",
+          "origin": "DEL",
+          "arrival": "2026-07-02T05:20:00",
+          "departure": "2026-07-02T03:00:00"
+        },
+        "move": {
+          "maxMoveBackDays": 365,
+          "maxMoveOutDays": 365
+        },
+        "segments": [
+          {
+            "isStandby": false,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "isBlocked": false,
+            "isHosted": true,
+            "isChangeOfGauge": false,
+            "designator": {
+              "destination": "BOM",
+              "origin": "DEL",
+              "arrival": "2026-07-02T05:20:00",
+              "departure": "2026-07-02T03:00:00"
+            },
+            "isSeatmapViewable": true,
+            "fares": [
+              {
+                "isGoverning": true,
+                "carrierCode": "6E",
+                "fareKey": "MH5Sfn42RX5SMElQfjQzMTB_fjB_MH5_WA--",
+                "classOfService": "R",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareClassOfService": "R",
+                "fareBasisCode": "R0IP",
+                "fareSequence": 0,
+                "inboundOutBound": 0,
+                "fareStatus": 0,
+                "isAllotmentMarketFare": false,
+                "originalClassOfService": "R",
+                "ruleNumber": "4310",
+                "productClass": "R",
+                "ruleTariff": null,
+                "travelClassCode": "Y",
+                "pricingDate": "2026-05-27T02:56:13.45",
+                "crossReferenceClassOfService": null,
+                "fareDesignator": {
+                  "fareTypeCodes": [
+                    "R"
+                  ]
+                },
+                "passengerFares": [
+                  {
+                    "serviceCharges": [
+                      {
+                        "amount": 2600,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 2600,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 350,
+                        "code": "BKF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 350,
+                        "ticketCode": "BKF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "PHF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "PHF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "RCF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "RCF"
+                      },
+                      {
+                        "amount": 600,
+                        "code": "YQ",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 600,
+                        "ticketCode": "YQ"
+                      },
+                      {
+                        "amount": 236,
+                        "code": "ASF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 236,
+                        "ticketCode": "ASF"
+                      },
+                      {
+                        "amount": 152,
+                        "code": "UDF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 152,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 89,
+                        "code": "UDFA",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 89,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 183,
+                        "code": "07GST",
+                        "detail": "DEL-BOM",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 183,
+                        "ticketCode": "GST"
+                      }
+                    ],
+                    "discountCode": null,
+                    "fareDiscountCode": null,
+                    "ticketFareBasis": null,
+                    "passengerType": "ADT"
+                  },
+                  {
+                    "serviceCharges": [
+                      {
+                        "amount": 2600,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 2600,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 350,
+                        "code": "BKF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 350,
+                        "ticketCode": "BKF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "PHF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "PHF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "RCF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "RCF"
+                      },
+                      {
+                        "amount": 600,
+                        "code": "YQ",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 600,
+                        "ticketCode": "YQ"
+                      },
+                      {
+                        "amount": 236,
+                        "code": "ASF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 236,
+                        "ticketCode": "ASF"
+                      },
+                      {
+                        "amount": 152,
+                        "code": "UDF",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 152,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 89,
+                        "code": "UDFA",
+                        "detail": "DEL-BOM",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 89,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 183,
+                        "code": "07GST",
+                        "detail": "DEL-BOM",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 183,
+                        "ticketCode": "GST"
+                      }
+                    ],
+                    "discountCode": null,
+                    "fareDiscountCode": null,
+                    "ticketFareBasis": null,
+                    "passengerType": "CHD"
+                  }
+                ],
+                "fareLink": 0
+              }
+            ],
+            "segmentKey": "NkV_IDM1M34gfn5ERUx_MDcvMDIvMjAyNiAwMzowMH5CT01_MDcvMDIvMjAyNiAwNToyMH5_",
+            "identifier": {
+              "identifier": "353",
+              "carrierCode": "6E",
+              "opSuffix": null
+            },
+            "passengerSegment": {
+              "MCFBRFQ-": {
+                "seats": [
+                  {
+                    "compartmentDesignator": "Y",
+                    "penalty": 0,
+                    "unitDesignator": "34E",
+                    "seatInformation": {
+                      "deck": 1,
+                      "seatSet": 62,
+                      "propertyList": {
+                        "BRDZONE": "1",
+                        "RIGHTS": "TRUE",
+                        "REARP": "TRUE",
+                        "TCC": "Y"
+                      }
+                    },
+                    "arrivalStation": "BOM",
+                    "departureStation": "DEL",
+                    "passengerKey": "MCFBRFQ-",
+                    "unitKey": "NkUhMzUzISAhNjM5MTg1NTgwMDAwMDAwMDAwIURFTCFCT00hMzRFIVk-",
+                    "crossReferenceSeatingPreference": null,
+                    "isPending": false,
+                    "seatmapReference": "NkUhIDM1MyEgITYzOTE4NTU4MDAwMDAwMDAwMCFERUwhQk9N"
+                  }
+                ],
+                "passengerKey": "MCFBRFQ-",
+                "activityDate": "2026-05-27T03:14:14.76Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T02:59:25.15Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T02:59:25.15Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T02:59:25.373Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MCFBRFQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 0,
+                  "travelClass": 0,
+                  "advancedPreferences": [
+                    {
+                      "seatMapCode": "REARP",
+                      "value": "TRUE",
+                      "status": 1
+                    }
+                  ]
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              },
+              "MSFBRFQ-": {
+                "seats": [],
+                "passengerKey": "MSFBRFQ-",
+                "activityDate": "2026-05-27T02:59:25.15Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T02:59:25.15Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T02:59:25.15Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T02:59:25.373Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MSFBRFQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 0,
+                  "travelClass": 0,
+                  "advancedPreferences": []
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              },
+              "MiFDSEQ-": {
+                "seats": [
+                  {
+                    "compartmentDesignator": "Y",
+                    "penalty": 0,
+                    "unitDesignator": "34D",
+                    "seatInformation": {
+                      "deck": 1,
+                      "seatSet": 62,
+                      "propertyList": {
+                        "AISLE": "TRUE",
+                        "BRDZONE": "1",
+                        "RIGHTS": "TRUE",
+                        "REARP": "TRUE",
+                        "TCC": "Y"
+                      }
+                    },
+                    "arrivalStation": "BOM",
+                    "departureStation": "DEL",
+                    "passengerKey": "MiFDSEQ-",
+                    "unitKey": "NkUhMzUzISAhNjM5MTg1NTgwMDAwMDAwMDAwIURFTCFCT00hMzREIVk-",
+                    "crossReferenceSeatingPreference": null,
+                    "isPending": false,
+                    "seatmapReference": "NkUhIDM1MyEgITYzOTE4NTU4MDAwMDAwMDAwMCFERUwhQk9N"
+                  }
+                ],
+                "passengerKey": "MiFDSEQ-",
+                "activityDate": "2026-05-27T03:14:14.76Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T02:59:25.15Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T02:59:25.15Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T02:59:25.373Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MiFDSEQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 2,
+                  "travelClass": 0,
+                  "advancedPreferences": [
+                    {
+                      "seatMapCode": "AISLE",
+                      "value": "TRUE",
+                      "status": 1
+                    },
+                    {
+                      "seatMapCode": "REARP",
+                      "value": "TRUE",
+                      "status": 1
+                    }
+                  ]
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              }
+            },
+            "channelType": 1,
+            "cabinOfService": "Y",
+            "externalIdentifier": null,
+            "priorityCode": null,
+            "changeReasonCode": 0,
+            "segmentType": 0,
+            "salesDate": "2026-05-27T02:59:25.15Z",
+            "international": false,
+            "flightReference": "20260702 6E 353 DELBOM",
+            "legs": [
+              {
+                "legKey": "NjM5MTg1NTgwMDAwMDAwMDAwITZFITM1MyEgIURFTCFCT00hMTEwNjg4NDI-",
+                "operationsInfo": null,
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "DEL",
+                  "arrival": "2026-07-02T05:20:00",
+                  "departure": "2026-07-02T03:00:00"
+                },
+                "legInfo": {
+                  "departureTimeUtc": "2026-07-01T21:30:00Z",
+                  "arrivalTimeUtc": "2026-07-01T23:50:00Z",
+                  "adjustedCapacity": 220,
+                  "arrivalTerminal": "2",
+                  "arrivalTimeVariant": 330,
+                  "backMoveDays": 365,
+                  "capacity": 220,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "1",
+                  "departureTimeVariant": 330,
+                  "equipmentType": "321",
+                  "equipmentTypeSuffix": "32P",
+                  "eTicket": false,
+                  "irop": false,
+                  "lid": 220,
+                  "marketingCode": "220D",
+                  "marketingOverride": false,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 365,
+                  "arrivalTime": "2026-07-02T05:20:00",
+                  "departureTime": "2026-07-02T03:00:00",
+                  "prbcCode": "C220",
+                  "scheduleServiceType": null,
+                  "sold": 56,
+                  "status": 0,
+                  "subjectToGovtApproval": false
+                },
+                "nests": [],
+                "ssrs": [],
+                "seatmapReference": "NkUhIDM1MyEgITYzOTE4NTU4MDAwMDAwMDAwMCFERUwhQk9N",
+                "flightReference": "20260702 6E 353 DELBOM"
+              }
+            ],
+            "status": 6
+          }
+        ],
+        "journeyKey": "NkV_IDM1M34gfn5ERUx_MDcvMDIvMjAyNiAwMzowMH5CT01_MDcvMDIvMjAyNiAwNToyMH5_",
+        "notForGeneralUser": false
+      },
+      {
+        "flightType": 1,
+        "stops": 0,
+        "designator": {
+          "destination": "DEL",
+          "origin": "BOM",
+          "arrival": "2026-07-05T05:10:00",
+          "departure": "2026-07-05T03:00:00"
+        },
+        "move": {
+          "maxMoveBackDays": 365,
+          "maxMoveOutDays": 365
+        },
+        "segments": [
+          {
+            "isStandby": false,
+            "isConfirming": false,
+            "isConfirmingExternal": false,
+            "isBlocked": false,
+            "isHosted": true,
+            "isChangeOfGauge": false,
+            "designator": {
+              "destination": "DEL",
+              "origin": "BOM",
+              "arrival": "2026-07-05T05:10:00",
+              "departure": "2026-07-05T03:00:00"
+            },
+            "isSeatmapViewable": true,
+            "fares": [
+              {
+                "isGoverning": true,
+                "carrierCode": "6E",
+                "fareKey": "MH5Sfn42RX5SMElQfjQzMTB_fjB_MH5_WA--",
+                "classOfService": "R",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareClassOfService": "R",
+                "fareBasisCode": "R0IP",
+                "fareSequence": 0,
+                "inboundOutBound": 0,
+                "fareStatus": 0,
+                "isAllotmentMarketFare": false,
+                "originalClassOfService": "R",
+                "ruleNumber": "4310",
+                "productClass": "R",
+                "ruleTariff": null,
+                "travelClassCode": "Y",
+                "pricingDate": "2026-05-27T06:16:36.727",
+                "crossReferenceClassOfService": null,
+                "fareDesignator": {
+                  "fareTypeCodes": [
+                    "R"
+                  ]
+                },
+                "passengerFares": [
+                  {
+                    "serviceCharges": [
+                      {
+                        "amount": 2600,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 2600,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 350,
+                        "code": "BKF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 350,
+                        "ticketCode": "BKF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "PHF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "PHF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "RCF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "RCF"
+                      },
+                      {
+                        "amount": 600,
+                        "code": "YQ",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 600,
+                        "ticketCode": "YQ"
+                      },
+                      {
+                        "amount": 236,
+                        "code": "ASF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 236,
+                        "ticketCode": "ASF"
+                      },
+                      {
+                        "amount": 207,
+                        "code": "UDF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 207,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 66,
+                        "code": "UDFA",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 66,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 183,
+                        "code": "27GST",
+                        "detail": "BOM-DEL",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 183,
+                        "ticketCode": "GST"
+                      }
+                    ],
+                    "discountCode": null,
+                    "fareDiscountCode": null,
+                    "ticketFareBasis": null,
+                    "passengerType": "ADT"
+                  },
+                  {
+                    "serviceCharges": [
+                      {
+                        "amount": 2600,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 2600,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 350,
+                        "code": "BKF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 350,
+                        "ticketCode": "BKF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "PHF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "PHF"
+                      },
+                      {
+                        "amount": 50,
+                        "code": "RCF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 50,
+                        "ticketCode": "RCF"
+                      },
+                      {
+                        "amount": 600,
+                        "code": "YQ",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 600,
+                        "ticketCode": "YQ"
+                      },
+                      {
+                        "amount": 236,
+                        "code": "ASF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 236,
+                        "ticketCode": "ASF"
+                      },
+                      {
+                        "amount": 207,
+                        "code": "UDF",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 207,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 66,
+                        "code": "UDFA",
+                        "detail": "BOM-DEL",
+                        "type": 4,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 66,
+                        "ticketCode": "UDF"
+                      },
+                      {
+                        "amount": 183,
+                        "code": "27GST",
+                        "detail": "BOM-DEL",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 183,
+                        "ticketCode": "GST"
+                      }
+                    ],
+                    "discountCode": null,
+                    "fareDiscountCode": null,
+                    "ticketFareBasis": null,
+                    "passengerType": "CHD"
+                  }
+                ],
+                "fareLink": 0
+              }
+            ],
+            "segmentKey": "NkV_NjA0NX4gfn5CT01_MDcvMDUvMjAyNiAwMzowMH5ERUx_MDcvMDUvMjAyNiAwNToxMH5_",
+            "identifier": {
+              "identifier": "6045",
+              "carrierCode": "6E",
+              "opSuffix": null
+            },
+            "passengerSegment": {
+              "MCFBRFQ-": {
+                "seats": [
+                  {
+                    "compartmentDesignator": "Y",
+                    "penalty": 0,
+                    "unitDesignator": "34B",
+                    "seatInformation": {
+                      "deck": 1,
+                      "seatSet": 61,
+                      "propertyList": {
+                        "INFANT": "TRUE",
+                        "BRDZONE": "1",
+                        "LEFTS": "TRUE",
+                        "REARP": "TRUE",
+                        "TCC": "Y"
+                      }
+                    },
+                    "arrivalStation": "DEL",
+                    "departureStation": "BOM",
+                    "passengerKey": "MCFBRFQ-",
+                    "unitKey": "NkUhNjA0NSEgITYzOTE4ODE3MjAwMDAwMDAwMCFCT00hREVMITM0QiFZ",
+                    "crossReferenceSeatingPreference": null,
+                    "isPending": false,
+                    "seatmapReference": "NkUhNjA0NSEgITYzOTE4ODE3MjAwMDAwMDAwMCFCT00hREVM"
+                  }
+                ],
+                "passengerKey": "MCFBRFQ-",
+                "activityDate": "2026-05-27T06:38:08.03Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T06:27:40.44Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T06:27:40.44Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T06:27:40.45Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MCFBRFQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 0,
+                  "travelClass": 0,
+                  "advancedPreferences": [
+                    {
+                      "seatMapCode": "INFANT",
+                      "value": "TRUE",
+                      "status": 1
+                    },
+                    {
+                      "seatMapCode": "REARP",
+                      "value": "TRUE",
+                      "status": 1
+                    }
+                  ]
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              },
+              "MSFBRFQ-": {
+                "seats": [],
+                "passengerKey": "MSFBRFQ-",
+                "activityDate": "2026-05-27T06:27:40.44Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T06:27:40.44Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T06:27:40.44Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T06:27:40.45Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MSFBRFQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 0,
+                  "travelClass": 0,
+                  "advancedPreferences": []
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              },
+              "MiFDSEQ-": {
+                "seats": [
+                  {
+                    "compartmentDesignator": "Y",
+                    "penalty": 0,
+                    "unitDesignator": "34A",
+                    "seatInformation": {
+                      "deck": 1,
+                      "seatSet": 61,
+                      "propertyList": {
+                        "WINDOW": "TRUE",
+                        "INFANT": "TRUE",
+                        "BRDZONE": "1",
+                        "LEFTS": "TRUE",
+                        "REARP": "TRUE",
+                        "TCC": "Y"
+                      }
+                    },
+                    "arrivalStation": "DEL",
+                    "departureStation": "BOM",
+                    "passengerKey": "MiFDSEQ-",
+                    "unitKey": "NkUhNjA0NSEgITYzOTE4ODE3MjAwMDAwMDAwMCFCT00hREVMITM0QSFZ",
+                    "crossReferenceSeatingPreference": null,
+                    "isPending": false,
+                    "seatmapReference": "NkUhNjA0NSEgITYzOTE4ODE3MjAwMDAwMDAwMCFCT00hREVM"
+                  }
+                ],
+                "passengerKey": "MiFDSEQ-",
+                "activityDate": "2026-05-27T06:38:08.033Z",
+                "boardingSequence": "0",
+                "createdDate": "2026-05-27T06:27:40.44Z",
+                "liftStatus": 3,
+                "modifiedDate": "2026-05-27T06:27:40.44Z",
+                "overBookIndicator": 0,
+                "priorityDate": "2026-05-27T06:27:40.45Z",
+                "timeChanged": false,
+                "verifiedTravelDocs": null,
+                "sourcePointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "pointOfSale": {
+                  "agentCode": "RESJS11",
+                  "domainCode": "DEF",
+                  "locationCode": "RES",
+                  "organizationCode": "6E"
+                },
+                "ssrs": [],
+                "tickets": [],
+                "bags": [],
+                "scores": [
+                  {
+                    "guestValueCode": "DEF",
+                    "score": 37,
+                    "passengerKey": "MiFDSEQ-"
+                  }
+                ],
+                "boardingPassDetail": null,
+                "hasInfant": false,
+                "seatPreferences": {
+                  "seat": 1,
+                  "travelClass": 0,
+                  "advancedPreferences": [
+                    {
+                      "seatMapCode": "INFANT",
+                      "value": "TRUE",
+                      "status": 1
+                    },
+                    {
+                      "seatMapCode": "REARP",
+                      "value": "TRUE",
+                      "status": 1
+                    },
+                    {
+                      "seatMapCode": "WINDOW",
+                      "value": "TRUE",
+                      "status": 1
+                    }
+                  ]
+                },
+                "bundleCode": null,
+                "verifiedTravelDocuments": null,
+                "referenceNumber": 0,
+                "baggageGroupNumber": null
+              }
+            },
+            "channelType": 1,
+            "cabinOfService": "Y",
+            "externalIdentifier": null,
+            "priorityCode": null,
+            "changeReasonCode": 0,
+            "segmentType": 0,
+            "salesDate": "2026-05-27T06:27:40.44Z",
+            "international": false,
+            "flightReference": "20260705 6E6045 BOMDEL",
+            "legs": [
+              {
+                "legKey": "NjM5MTg4MTcyMDAwMDAwMDAwITZFITYwNDUhICFCT00hREVMITEwMDg4NzIw",
+                "operationsInfo": null,
+                "designator": {
+                  "destination": "DEL",
+                  "origin": "BOM",
+                  "arrival": "2026-07-05T05:10:00",
+                  "departure": "2026-07-05T03:00:00"
+                },
+                "legInfo": {
+                  "departureTimeUtc": "2026-07-04T21:30:00Z",
+                  "arrivalTimeUtc": "2026-07-04T23:40:00Z",
+                  "adjustedCapacity": 220,
+                  "arrivalTerminal": "1",
+                  "arrivalTimeVariant": 330,
+                  "backMoveDays": 365,
+                  "capacity": 220,
+                  "changeOfDirection": false,
+                  "codeShareIndicator": 0,
+                  "departureTerminal": "2",
+                  "departureTimeVariant": 330,
+                  "equipmentType": "321",
+                  "equipmentTypeSuffix": "32P",
+                  "eTicket": false,
+                  "irop": false,
+                  "lid": 220,
+                  "marketingCode": "220D",
+                  "marketingOverride": false,
+                  "operatedByText": null,
+                  "operatingCarrier": null,
+                  "operatingFlightNumber": null,
+                  "operatingOpSuffix": null,
+                  "outMoveDays": 365,
+                  "arrivalTime": "2026-07-05T05:10:00",
+                  "departureTime": "2026-07-05T03:00:00",
+                  "prbcCode": "C220",
+                  "scheduleServiceType": null,
+                  "sold": 10,
+                  "status": 0,
+                  "subjectToGovtApproval": false
+                },
+                "nests": [],
+                "ssrs": [],
+                "seatmapReference": "NkUhNjA0NSEgITYzOTE4ODE3MjAwMDAwMDAwMCFCT00hREVM",
+                "flightReference": "20260705 6E6045 BOMDEL"
+              }
+            ],
+            "status": 6
+          }
+        ],
+        "journeyKey": "NkV_NjA0NX4gfn5CT01_MDcvMDUvMjAyNiAwMzowMH5ERUx_MDcvMDUvMjAyNiAwNToxMH5_",
+        "notForGeneralUser": false
+      }
+    ],
+    "comments": [
+      {
+        "type": 2,
+        "text": "test booking",
+        "createdDate": "2026-05-27T02:59:25.15Z",
+        "pointOfSale": {
+          "agentCode": "RESJS11",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NjkwMzQ-"
+      },
+      {
+        "type": 0,
+        "text": "Advised of Fare Rule",
+        "createdDate": "2026-05-27T02:59:25.15Z",
+        "pointOfSale": {
+          "agentCode": "RESJS11",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NjkwMzU-"
+      },
+      {
+        "type": 0,
+        "text": "DGCA mandated adult child seating",
+        "createdDate": "2026-05-27T03:14:14.347Z",
+        "pointOfSale": {
+          "agentCode": "AutoSeatAssignme",
+          "domainCode": "EXT",
+          "locationCode": "API6E",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NjkxOTE-"
+      },
+      {
+        "type": 0,
+        "text": "DGCA mandated adult child seating",
+        "createdDate": "2026-05-27T03:14:15.007Z",
+        "pointOfSale": {
+          "agentCode": "AutoSeatAssignme",
+          "domainCode": "EXT",
+          "locationCode": "API6E",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NjkxOTM-"
+      },
+      {
+        "type": 0,
+        "text": "customer called to changed the date of the flight - swati shukla",
+        "createdDate": "2026-05-27T05:48:04.453Z",
+        "pointOfSale": {
+          "agentCode": "RESJS11",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NzA2OTM-"
+      },
+      {
+        "type": 0,
+        "text": "DGCA mandated adult child seating",
+        "createdDate": "2026-05-27T05:56:06.59Z",
+        "pointOfSale": {
+          "agentCode": "AutoSeatAssignme",
+          "domainCode": "EXT",
+          "locationCode": "API6E",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NzA3NDk-"
+      },
+      {
+        "type": 0,
+        "text": "TA called for  reschedule the flight from [3 july] to [5 july].”agent - sandeep kumar",
+        "createdDate": "2026-05-27T06:27:40.44Z",
+        "pointOfSale": {
+          "agentCode": "RESJS11",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NzEyNzk-"
+      },
+      {
+        "type": 0,
+        "text": "DGCA mandated adult child seating",
+        "createdDate": "2026-05-27T06:38:09.207Z",
+        "pointOfSale": {
+          "agentCode": "AutoSeatAssignme",
+          "domainCode": "EXT",
+          "locationCode": "API6E",
+          "organizationCode": "6E"
+        },
+        "commentKey": "MTg2NzE0MDg-"
+      }
+    ],
+    "queues": [
+      {
+        "code": "CCDECL",
+        "subCode": "31-45",
+        "name": "Balance payment due",
+        "queueId": 2348702,
+        "passengerId": 0,
+        "watchListId": 0,
+        "note": "Booking with balance due of INR 17,994.00",
+        "type": 1,
+        "action": 0,
+        "mode": 0,
+        "flightReference": null,
+        "bookingQueueKey": "MjM0ODcwMiFDQ0RFQ0whMzEtNDU-",
+        "passengerAlternateKey": null,
+        "watchListKey": null
+      },
+      {
+        "code": "WEBTAX",
+        "subCode": null,
+        "name": "TAX REF REQUEST THROUG WEB",
+        "queueId": 2348706,
+        "passengerId": 0,
+        "watchListId": 0,
+        "note": "na",
+        "type": 0,
+        "action": 0,
+        "mode": 0,
+        "flightReference": null,
+        "bookingQueueKey": "MjM0ODcwNiFXRUJUQVgh",
+        "passengerAlternateKey": null,
+        "watchListKey": null
+      },
+      {
+        "code": "CCREF",
+        "subCode": null,
+        "name": "Refund to be processed",
+        "queueId": 2348709,
+        "passengerId": 0,
+        "watchListId": 0,
+        "note": "na",
+        "type": 0,
+        "action": 0,
+        "mode": 0,
+        "flightReference": null,
+        "bookingQueueKey": "MjM0ODcwOSFDQ1JFRiE-",
+        "passengerAlternateKey": null,
+        "watchListKey": null
+      },
+      {
+        "code": "CCDIS",
+        "subCode": "01",
+        "name": "Dispute / Escalations",
+        "queueId": 2348714,
+        "passengerId": 0,
+        "watchListId": 0,
+        "note": "na",
+        "type": 0,
+        "action": 0,
+        "mode": 0,
+        "flightReference": null,
+        "bookingQueueKey": "MjM0ODcxNCFDQ0RJUyEwMQ--",
+        "passengerAlternateKey": null,
+        "watchListKey": null
+      }
+    ],
+    "history": [],
+    "payments": [
+      {
+        "paymentKey": "NTY4ODE3NTAwITEhUlAhNDQ5NjE5NzAw",
+        "code": "RP",
+        "approvalDate": "2026-05-27T03:01:10.667Z",
+        "details": {
+          "stateId": 0,
+          "parentPaymentId": null,
+          "accountName": null,
+          "state": null,
+          "expirationDate": null,
+          "text": null,
+          "installments": 0,
+          "binRange": 0,
+          "fields": {
+            "OrderID": "1111",
+            "TRXID": "1111"
+          }
+        },
+        "amounts": {
+          "amount": 25956,
+          "currencyCode": "INR",
+          "collected": 25956,
+          "collectedCurrencyCode": "INR",
+          "quoted": 25956,
+          "quotedCurrencyCode": "INR"
+        },
+        "authorizationCode": null,
+        "authorizationStatus": 4,
+        "fundedDate": "1800-01-01T00:00:00Z",
+        "transactionCode": null,
+        "dcc": null,
+        "threeDSecure": null,
+        "attachments": [],
+        "createdDate": "2026-05-27T03:01:10.663Z",
+        "modifiedDate": "2026-05-27T03:01:10.663Z",
+        "type": 1,
+        "status": 3,
+        "transferred": false,
+        "channelType": 1,
+        "pointOfSale": {
+          "agentCode": "XXCCY",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "sourcePointOfSale": {
+          "agentCode": "RESJS11",
+          "domainCode": "DEF",
+          "locationCode": "RES",
+          "organizationCode": "6E"
+        },
+        "deposit": false,
+        "accountId": 0,
+        "voucher": null,
+        "addedToState": true,
+        "createdAgentId": 18464964,
+        "modifiedAgentId": 18464964,
+        "reference": 568817500,
+        "passengerVoucher": null
+      }
+    ],
+    "addOns": {},
+    "orders": []
+  }
+}
