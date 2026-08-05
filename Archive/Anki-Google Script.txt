@@ -1,0 +1,44 @@
+function wrapWithPreTags() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getActiveSheet();
+  var data = sheet.getDataRange().getValues();
+
+  if (data.length === 0) {
+    SpreadsheetApp.getUi().alert("No data found!");
+    return;
+  }
+
+  var newSheet = ss.getSheetByName("DeleteMe");
+  if (newSheet) {
+    ss.deleteSheet(newSheet);
+  }
+  newSheet = ss.insertSheet("DeleteMe");
+
+  newSheet.appendRow(data[0]); // Copy header as-is
+
+  for (var i = 1; i < data.length; i++) {
+    var modifiedRow = data[i].map(cell => `<pre>${cell}</pre>`);
+    newSheet.appendRow(modifiedRow);
+  }
+
+  //SpreadsheetApp.getUi().alert("Modified data saved in 'MODIFIED' sheet.");
+  
+  // Convert to CSV and download
+  downloadCSV(newSheet);
+}
+
+function downloadCSV(sheet) {
+  var data = sheet.getDataRange().getValues();
+  var csvContent = data.map(row => row.map(cell => '"' + cell.replace(/"/g, '""') + '"').join(",")).join("\n");
+  var blob = Utilities.newBlob("﻿" + csvContent, "text/csv", "DeleteMe_data.csv");
+  
+  var html = `
+    <html>
+      <body>
+        <a href="data:application/octet-stream;base64,${Utilities.base64Encode(blob.getBytes())}" download="DeleteMe_data.csv">Download CSV</a>
+      </body>
+    </html>
+  `;
+  var htmlOutput = HtmlService.createHtmlOutput(html).setWidth(200).setHeight(100);
+  SpreadsheetApp.getUi().showModalDialog(htmlOutput, "Download CSV");
+}
