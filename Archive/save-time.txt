@@ -1,0 +1,29 @@
+@echo off
+setlocal DisableDelayedExpansion
+
+
+:: Convert to BAT File | Applicable to winodws Only
+
+start "" /max "C:\Program Files\Notepad++\notepad++.exe"
+start "" /max "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.5/bin/idea64.exe"
+start "" /max "C:/Program Files/SmartBear/SoapUI-5.9.1/bin/SoapUI-5.9.1.exe"
+start "" /max "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/devenv.exe"
+start "" /max "C:/Program Files/Microsoft VS Code/Code.exe"
+start "" /max "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" 
+start "" /max "C:/Program Files/Microsoft SQL Server Management Studio 22/Release/Common7/IDE/SSMS.exe"
+
+
+
+
+::start "" /max "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+::start "" /max "C:\Program Files\Google\Chrome\Application\chrome.exe"
+start "" /max "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://outlook.cloud.microsoft/mail/"
+start "" /max "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://teams.microsoft.com/v2/"
+
+
+
+
+
+
+endlocal
+exit
